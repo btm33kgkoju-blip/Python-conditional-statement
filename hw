@@ -1,0 +1,25 @@
+number1 = int(input("Enter any number"))
+number2 = int(input("Enter any  number"))
+
+sum = number1 + number2
+print("Sum of the two numbers is: ", sum)
+
+CP = float(input("Please Enter the CP:"))
+SP = float(input("Please Enter the SP:"))
+
+if (SP > CP):
+   amount = SP - CP
+   print("Total profit = {0}".format(amount))
+else:
+   print("No Profit")
+   
+num1 = 7
+if num1 > 0:
+  print(num1, "is a positive no.")
+else:
+  print(num1, "is a negative no.")
+num2 = -7
+if num2 > 0:
+  print(num2, "is a positive no.")
+else:
+  print(num2, "is a negative no.")
